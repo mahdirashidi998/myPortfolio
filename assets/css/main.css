@@ -2643,7 +2643,8 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
+				margin: auto;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -3313,6 +3314,7 @@ input, select, textarea {
 		min-height: 100vh;
 	}
 
+		
 		#intro input, #intro select, #intro textarea {
 			color: #ffffff;
 		}
@@ -3488,6 +3490,44 @@ input, select, textarea {
 					display: none;
 				}
 
+		}
+/*jung oic*/
+		div.quote-container {
+			display: flex;
+			align-items: center;
+			border: 2px /*solid #ccc;*/
+			padding: 10px;
+			margin-bottom: 20px;
+			/*background-color: #f9f9f9;*/
+		}
+		
+		div.author-image {
+			margin-right: 200px;
+		}
+		
+		div.author-image img {
+			width: 350px;
+			height: 350px;
+			border-radius: 50%;
+			margin-left: 200px;
+			object-fit: cover;
+		}
+		
+		div.quote-text {
+			flex: 1;
+		}
+		
+		div.quote-text blockquote {
+			font-size: 24px;
+			font-style: italic;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		
+		div.quote-text .quote-author {
+			font-weight: bold;
+			text-align: right;
+			margin-top: 0;
 		}
 
 /* Header */
@@ -4686,4 +4726,38 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+		
+
 	}
+	.education {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	  }
+	  
+	  .logo {
+		margin-right: 20px;
+	  }
+	  
+	  .logo img {
+		max-width: 100px;
+		height: auto;
+	  }
+	  
+	  .details h3 {
+		margin-top: 0;
+	  }
+	  
+	  .details p {
+		margin: 0;
+	  }
+	  
+	  .details ul {
+		margin: 5px 0 0 0;
+		padding: 0;
+		list-style: none;
+	  }
+	  
+	  .details li {
+		margin-bottom: 5px;
+	  }
